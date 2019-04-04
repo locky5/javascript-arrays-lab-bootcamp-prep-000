@@ -8,6 +8,6 @@ function destructivelyAppendKitten(name) {
 }
 
 function destructivelyRemoveLastKitten() {
-  kittens.pop
+  kittens.pop()
   return kittens
 }
